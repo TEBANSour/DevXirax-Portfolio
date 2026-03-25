@@ -139,17 +139,20 @@ function attachLightboxListeners() {
         img.addEventListener('click', () => {
             lightboxImg.src = img.src;
             lightbox.classList.add('active');
+            document.body.classList.add('lightbox-open');
         });
     });
 }
 
 lightboxClose.addEventListener('click', () => {
     lightbox.classList.remove('active');
+    document.body.classList.remove('lightbox-open');
 });
 
 lightbox.addEventListener('click', (e) => {
     if (e.target === lightbox) {
         lightbox.classList.remove('active');
+        document.body.classList.remove('lightbox-open');
     }
 });
 
