@@ -1,4 +1,4 @@
-# 💻 DevXirax Portfolio — Software Solutions Developer
+#  DevXirax Portfolio — Software Solutions Developer
 
 Bienvenido a mi repositorio personal de presentación profesional. Aquí se encuentra el código de mi portfolio web, diseñado como una vitrina interactiva para mis capacidades en el desarrollo de **sistemas de gestión** y soluciones digitales a medida.
 
